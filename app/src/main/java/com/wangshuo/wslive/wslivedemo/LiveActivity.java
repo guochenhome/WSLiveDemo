@@ -21,7 +21,8 @@ public class LiveActivity extends AppCompatActivity {
     private static final String TAG = LiveActivity.class.getSimpleName();
     private StreamLiveCameraView mLiveCameraView;
     private StreamAVOption streamAVOption;
-    private String rtmpUrl = "rtmp://ossrs.net/" + StatusBarUtils.getRandomAlphaString(3) + '/' + StatusBarUtils.getRandomAlphaDigitString(5);
+//    private String rtmpUrl = "rtmp://ossrs.net/" + StatusBarUtils.getRandomAlphaString(3) + '/' + StatusBarUtils.getRandomAlphaDigitString(5);
+    private String rtmpUrl = "rtmp://push.yxvzb.com/live/guochen_20181227";
 
     private LiveUI mLiveUI;
 
